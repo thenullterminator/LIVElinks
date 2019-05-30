@@ -104,37 +104,37 @@
 
 /* works IMG BACKGROUND */
 .works-inner-img-1 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-2 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-3 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-4 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-5 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-6 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
@@ -378,11 +378,19 @@ margin: 0 auto;
     margin-top: -3px;
   }
 }
-
+@import url('https://fonts.googleapis.com/css?family=Acme|Baloo|Francois+One|Righteous&display=swap');
 h1 {
 /* background-color:white; */
 height:180px;
+
+
 font-family: 'Oswald', sans-serif;
+/* font-family: 'Acme', sans-serif; */
+/* font-family: 'Righteous', cursive; */
+/* font-family: 'Francois One', sans-serif; */
+/* font-family: 'Baloo', cursive; */
+
+
 font-size: 90px;
 font-weight: 700;
 line-height: .9;
@@ -1176,16 +1184,16 @@ z-index: 100;
 }
 
 #logo:hover {
-  transition: 5.0s;
-  -webkit-transition: 5.0s;
-  -moz-transition: 5.0s;
-  -ms-transition:5.0s;
-  -o-transition: 5.0s;
-  -webkit-transform: rotateY(720deg);
-  -moz-transform: rotateY(720deg);
-  -o-transform: rotateY(720deg);
-  -ms-transform: rotateY(720deg);
-  transform: rotateY(720deg);
+  transition: 150.0s;
+  -webkit-transition: 150.0s;
+  -moz-transition: 150.0s;
+  -ms-transition:150.0s;
+  -o-transition: 150.0s;
+  -webkit-transform: rotateY(72000deg);
+  -moz-transform: rotateY(72000deg);
+  -o-transform: rotateY(72000deg);
+  -ms-transform: rotateY(72000deg);
+  transform: rotateY(72000deg);
 } 
 @media only screen and (max-width: 640px) {
 
